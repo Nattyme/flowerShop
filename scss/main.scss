@@ -5,6 +5,10 @@
 @import "./base/base.scss";
 
 // sections
-
+@import "./sections/header";
 
 // blocks
+@import "./blocks/logo";
+@import "./blocks/nav";
+@import "./blocks/form";
+
