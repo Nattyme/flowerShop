@@ -1,5 +1,15 @@
-/* Reset and base styles  */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap");
+.elite-gift::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.13);
+}
+
+/* Reset and base styles  */
 * {
   padding: 0px;
   margin: 0px;
@@ -187,13 +197,27 @@ body {
 }
 
 .elite-gift {
+  position: relative;
   min-height: 500px;
-  background-image: url("./../img/elite-gift/elite-bg.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   background-color: #ecb0c5;
+  background-image: url("./../img/elite-gift/elite-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
+}
+.elite-gift__row {
+  position: relative;
+}
+
+.elite-gift__content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 50%;
+  top: -50%;
+  transform: translate(-50%, 50%);
 }
 
 .elite-gift__title {
@@ -202,6 +226,7 @@ body {
   font-weight: 500;
   line-height: 0.87; /* 87.838% */
   text-transform: uppercase;
+  text-align: center;
 }
 .elite-gift__title * + p {
   padding-top: 27px;
