@@ -143,6 +143,49 @@ body {
   padding-left: 24px;
 }
 
+.today-offer {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #72408a;
+  color: #fff;
+}
+
+.today-offer__column {
+  text-align: center;
+}
+
+.today-offer__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  color: inherit;
+}
+
+.today-offer__img {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.today-offer__text {
+  font-size: 16px;
+  font-weight: 500;
+}
+.today-offer__text .today-offer__day {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.today-offer__text .today-offer__date {
+  text-transform: uppercase;
+}
+.today-offer__text .today-offer__sale {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 .nav {
   padding-top: 16px;
   padding-bottom: 19px;
