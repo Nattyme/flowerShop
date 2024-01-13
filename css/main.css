@@ -424,10 +424,22 @@ body {
   content: "";
   background-color: #f5f5f5;
 }
-.tab-controls__btn:hover {
+.tab-controls__btn--active {
   background-image: url("./../img/best-sale/tab.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
+}
+
+.tab-controls__btn:hover .tab-controls__btn::before {
+  background-color: red;
+}
+
+.card {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  width: 255px;
+  height: 336px;
 }/*# sourceMappingURL=main.css.map */

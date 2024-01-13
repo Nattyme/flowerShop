@@ -28,9 +28,15 @@
         background-color: #f5f5f5;
     }
 
-    &:hover {
+    &--active {
         @include bgImage ('./../img/best-sale/tab.svg');
         color: #fff;
     }
+
+}
+
+
+.tab-controls__btn:hover .tab-controls__btn::before {
+    background-color: red; 
 }
 
