@@ -257,6 +257,15 @@ body {
   margin-bottom: 45px;
 }
 
+.best-sale__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 255px);
+  grid-template-rows: repeat(2, 1fr);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 24px;
+}
+
 .form-header {
   padding-left: 8px;
   padding-right: 8px;
@@ -438,7 +447,6 @@ body {
 }
 
 .card {
-  padding: 0 15px 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -447,6 +455,7 @@ body {
 }
 
 .card__content {
+  padding: 0 15px 25px;
   margin-top: auto;
   display: flex;
   justify-content: space-between;

@@ -11,3 +11,12 @@
 .best-sale__subtitle {
     margin-bottom: 45px;
 }
+
+.best-sale__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 255px);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 24px;
+
+}
