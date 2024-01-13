@@ -10,7 +10,24 @@
 }
 
 .nav__item {
+    font-size: 14px;
+    font-weight: 500;
+
+    &:not(:nth-last-child(-n + 3)) {
+        position: relative;
+        padding-right: 25px;
+
+        &::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 17px;
+            height: 17px;
+            content: url("./../img/icons/arrow-down.svg");
+        }
+    }
 }
 
 .nav__link {
+    color: #000
 }

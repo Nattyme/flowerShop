@@ -2,18 +2,13 @@
 }
 
 .header__top {
+    border-bottom: 1px solid #d8d8d8;
 }
 
 .header__cta {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.header__logo {
-}
-
-.header__form {
 }
 
 .header__list {
@@ -51,17 +46,6 @@
     }
 }
 
-.header__contact {
-}
-
-.header__delivery {
-}
-
-.header__account {
-}
-
-.header__cart {
-}
-
 .header__nav {
+    padding-left: 24px;
 }

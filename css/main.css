@@ -88,13 +88,18 @@ legend {
 
 body {
   font-family: "Inter", sans-serif;
+  line-height: normal;
 }
 
 .container {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 15px;
   width: 1157px;
+}
+
+.header__top {
+  border-bottom: 1px solid #d8d8d8;
 }
 
 .header__cta {
@@ -134,6 +139,10 @@ body {
   line-height: normal;
 }
 
+.header__nav {
+  padding-left: 24px;
+}
+
 .nav {
   padding-top: 16px;
   padding-bottom: 19px;
@@ -143,6 +152,27 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav__item {
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav__item:not(:nth-last-child(-n+3)) {
+  position: relative;
+  padding-right: 25px;
+}
+.nav__item:not(:nth-last-child(-n+3))::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 17px;
+  height: 17px;
+  content: url("./../img/icons/arrow-down.svg");
+}
+
+.nav__link {
+  color: #000;
 }
 
 .form-header {

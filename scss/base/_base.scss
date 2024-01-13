@@ -2,11 +2,12 @@
 
 body {
    font-family: $mainFont;
+   line-height: normal;
 }
 
 .container {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 15px;
     width: 1157px;
 }
