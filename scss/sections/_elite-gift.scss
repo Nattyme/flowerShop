@@ -1,0 +1,39 @@
+.elite-gift {
+    min-height: 500px;
+    background-image: url('./../img/elite-gift/elite-bg.jpg');
+    background-position: center center; // x y
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ecb0c5;
+
+    color: #fff;
+}
+
+.elite-gift__row {
+    // position: relative;
+}
+
+
+    // position: absolute;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+
+
+.elite-gift__title {
+    margin-bottom: 58px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 0.87; /* 87.838% */
+    text-transform: uppercase;
+
+    * + p {
+        padding-top: 27px;
+    }
+}
+
+.elite-gift__subtitle {
+}
+
+.elite-gift__button {
+}
