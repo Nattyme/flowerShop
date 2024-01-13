@@ -13,6 +13,7 @@
 
 .slider__title {
     margin-bottom: 58px;
+
     font-size: 48px;
     font-weight: 500;
     line-height: 0.87; /* 87.838% */
@@ -21,6 +22,12 @@
 
     * + p {
         padding-top: 27px;
+    }
+
+    h1 {
+        font-size: 74px;
+        font-weight: 600;
+        text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.50);
     }
 }
 

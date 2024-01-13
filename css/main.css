@@ -243,6 +243,20 @@ body {
   color: #80233a;
 }
 
+.best-sale {
+  padding-top: 113px;
+  padding-bottom: 122px;
+  text-align: center;
+}
+
+.best-sale__title {
+  margin-bottom: 16px;
+}
+
+.best-sale__subtitle {
+  margin-bottom: 45px;
+}
+
 .form-header {
   padding-left: 8px;
   padding-right: 8px;
@@ -300,9 +314,16 @@ body {
 }
 
 .title {
-  font-size: 74px;
-  font-weight: 600;
-  text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #828282;
 }
 
 .button {
@@ -346,6 +367,11 @@ body {
 .slider__title * + p {
   padding-top: 27px;
 }
+.slider__title h1 {
+  font-size: 74px;
+  font-weight: 600;
+  text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+}
 
 .slider__button {
   margin-bottom: 60px;
@@ -368,4 +394,22 @@ body {
 
 .slider__pagination-item--active {
   background-color: #fff;
+}
+
+.tab-controls {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+.tab-controls__btn {
+  width: 188px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background-color: #f5f5f5;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #828282;
 }/*# sourceMappingURL=main.css.map */

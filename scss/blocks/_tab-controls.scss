@@ -1,0 +1,18 @@
+.tab-controls {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.tab-controls__btn {
+    width: 188px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: #f5f5f5;
+
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #828282;
+}
+
