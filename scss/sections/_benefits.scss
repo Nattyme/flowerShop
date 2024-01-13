@@ -11,31 +11,35 @@
 
 .benefits__row {
     max-width: 998px;
+    padding-left: 86px;
     display: flex;
     justify-content: space-between;
+}
+
+.benefits__row > * {
+    height: 100px;
 }
 
 .benefits__item {
-    min-height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
 .benefits__img {
-    width: 55px;
-    height: 55px;
-    overflow: hidden;
-
+    height: 66px;
     img {
-        margin: auto;
+        position: relative;
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
 .benefits__text {
+    height: 34px;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
+    text-align: center;
     color: #80233a;
 }
