@@ -1,7 +1,7 @@
 .elite-gift {
     position: relative;
     min-height: 500px;
-    
+
     background-color: #ecb0c5;
     @include bgImage ('./../img/elite-gift/elite-bg.jpg');
 
@@ -12,34 +12,3 @@
     }
 }
 
-.elite-gift__row {
-    position: relative;
-}
-
-.elite-gift__content {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    left: 50%;
-    top: -50%;
-    transform: translate(-50%, 50%);
-
-}
-   
-.elite-gift__title {
-    margin-bottom: 58px;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 0.87; /* 87.838% */
-    text-transform: uppercase;
-    text-align: center;
-
-    * + p {
-        padding-top: 27px;
-    }
-}
-
-.elite-gift__button {
-
-}
