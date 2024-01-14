@@ -285,6 +285,10 @@ body {
   margin-bottom: 60px;
 }
 
+.clients__slider {
+  text-align: center;
+}
+
 .form-header {
   padding-left: 8px;
   padding-right: 8px;
@@ -546,4 +550,49 @@ body {
 }
 .card__cart:hover::before {
   content: url("./../img/card/bag-hover.svg");
+}
+
+.slider-client__item {
+  padding-top: 51px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 659px;
+  height: 271px;
+  background-color: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.slider-client__item::after {
+  width: 57px;
+  height: 37px;
+  content: url("./../img/clients/figure.svg");
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+
+.slider-client__content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 390px;
+  text-align: center;
+}
+
+.slider-client__title {
+  margin-bottom: 10px;
+}
+.slider-client__title h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.slider-client__text {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.slider-client__text p {
+  font-size: 14px;
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */
