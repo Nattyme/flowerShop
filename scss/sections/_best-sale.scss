@@ -13,10 +13,15 @@
 }
 
 .best-sale__cards {
+    margin-bottom: 59px;
+    
     display: grid;
     grid-template-columns: repeat(4, 255px);
     grid-template-rows: repeat(2, 1fr);
     column-gap: 30px;
     row-gap: 24px;
+}
+
+.best-sale__btn {
 
 }

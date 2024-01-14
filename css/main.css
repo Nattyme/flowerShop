@@ -258,6 +258,7 @@ body {
 }
 
 .best-sale__cards {
+  margin-bottom: 59px;
   display: grid;
   grid-template-columns: repeat(4, 255px);
   grid-template-rows: repeat(2, 1fr);
@@ -350,6 +351,24 @@ body {
 }
 .button:hover {
   background-color: #a22a48;
+}
+
+.button-light {
+  display: inline-block;
+  width: 183px;
+  height: 45px;
+  border: 1px solid #80233a;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #80233a;
+  transition: all 0.2s ease-in;
+}
+.button-light:hover {
+  background-color: #80233a;
+  color: #fff;
 }
 
 .slider {

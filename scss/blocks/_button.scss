@@ -18,3 +18,25 @@
         background-color: #a22a48;
     }
 }
+
+.button-light {
+    display: inline-block;
+    width: 183px;
+    height: 45px;
+    border: 1px solid #80233a;
+
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #80233a;
+
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        background-color: #80233a;
+        color: #fff;
+    }
+}
