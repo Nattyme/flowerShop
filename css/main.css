@@ -267,6 +267,24 @@ body {
   row-gap: 24px;
 }
 
+.clients {
+  padding-top: 58px;
+  padding-bottom: 54px;
+  background: linear-gradient(180deg, #EFCFDA 0%, #ECB0C5 100%);
+}
+
+.clients__row {
+  text-align: center;
+}
+
+.clients__title {
+  margin-bottom: 16px;
+}
+
+.clients__subtitle {
+  margin-bottom: 60px;
+}
+
 .form-header {
   padding-left: 8px;
   padding-right: 8px;
@@ -329,11 +347,17 @@ body {
   text-transform: uppercase;
   color: #000;
 }
+.title--accent {
+  color: #80233a;
+}
 
 .subtitle {
   font-size: 16px;
   font-weight: 500;
   color: #828282;
+}
+.subtitle--accent {
+  color: #80233a;
 }
 
 .button {
@@ -441,7 +465,10 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   color: #828282;
-  transition: background-color 0.2 ease-in;
+  transition: all 0.2s ease-in;
+}
+.tab-controls__btn:hover {
+  color: #80233a;
 }
 .tab-controls__btn::before {
   z-index: -1;
@@ -461,16 +488,16 @@ body {
   color: #fff;
 }
 
-.tab-controls__btn:hover .tab-controls__btn::before {
-  background-color: red;
-}
-
 .card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 255px;
   height: 336px;
+  transition: opacity 0.2s ease-in;
+}
+.card:hover {
+  opacity: 0.8;
 }
 
 .card__content {
@@ -498,6 +525,7 @@ body {
 }
 
 .card__cart {
+  font-size: 0;
   position: relative;
   width: 45px;
   height: 45px;

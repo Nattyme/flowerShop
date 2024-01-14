@@ -16,7 +16,11 @@
     text-transform: uppercase;
     color: #828282;
 
-    transition: background-color 0.2 ease-in;
+    transition: all 0.2s ease-in;
+    
+    &:hover {
+        color: #80233a;
+    }
 
     &::before {
         z-index: -1;
@@ -33,11 +37,5 @@
         @include bgImage ('./../img/best-sale/tab.svg');
         color: #fff;
     }
-
-}
-
-
-.tab-controls__btn:hover .tab-controls__btn::before {
-    background-color: red; 
 }
 

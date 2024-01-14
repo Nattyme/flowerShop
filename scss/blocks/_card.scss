@@ -4,10 +4,12 @@
     justify-content: space-between;
     width: 255px;
     height: 336px;
-}
 
-.card__img {
-    
+    transition: opacity 0.2s ease-in;
+
+    &:hover {
+        opacity: 0.8;
+    }
 }
 
 .card__content {
@@ -36,6 +38,7 @@
 }
 
 .card__cart {
+    font-size: 0;
     position: relative;
     width: 45px;
     height: 45px;
