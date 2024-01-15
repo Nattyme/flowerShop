@@ -1,0 +1,49 @@
+.subscribe {
+    position: relative;
+
+    @include bgImage ('./../img/subscribe/sub-bg.jpg');
+    background-color: #80233a;
+    color: #fff;
+
+    &::before {
+        @extend %overlay;
+    }
+}
+
+.subscribe__content {
+    z-index: 1;
+    position: relative;
+
+    margin: 0 auto;
+    padding-top: 54px;
+    padding-bottom: 60px;
+    max-width: 473px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.subscribe__header {
+    margin-bottom: 43px;
+}
+
+.subscribe__title {
+    margin-bottom: 20px;
+}
+
+.subscribe__subtitle {
+}
+
+.subscribe__form {
+}
+
+.form-subscribe {
+}
+
+.form-subscribe__input {
+}
+
+.button {
+}

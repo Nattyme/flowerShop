@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap");
-.elite-gift::before {
+.subscribe::before, .elite-gift::before {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -354,6 +354,36 @@ body {
   margin-bottom: 30px;
 }
 
+.subscribe {
+  position: relative;
+  background-image: url("./../img/subscribe/sub-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #80233a;
+  color: #fff;
+}
+.subscribe__content {
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 54px;
+  padding-bottom: 60px;
+  max-width: 473px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribe__header {
+  margin-bottom: 43px;
+}
+
+.subscribe__title {
+  margin-bottom: 20px;
+}
+
 .form-search {
   padding-left: 8px;
   padding-right: 8px;
@@ -419,6 +449,9 @@ body {
 .title--accent {
   color: #80233a;
 }
+.title--white {
+  color: #fff;
+}
 
 .subtitle {
   font-size: 16px;
@@ -427,6 +460,9 @@ body {
 }
 .subtitle--accent {
   color: #80233a;
+}
+.subtitle--white {
+  color: #fff;
 }
 
 .button {
