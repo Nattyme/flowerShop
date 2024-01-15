@@ -384,6 +384,50 @@ body {
   margin-bottom: 20px;
 }
 
+.follow-us__row {
+  padding-top: 123px;
+  padding-bottom: 119px;
+}
+
+.follow-us__content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1109px;
+  text-align: center;
+}
+
+.follow-us__text {
+  margin-bottom: 65px;
+}
+
+.follow-us__header {
+  margin-bottom: 25px;
+}
+
+.follow-us__title {
+  margin-bottom: 25px;
+}
+
+.follow-us__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 4px;
+       column-gap: 4px;
+}
+
+.follow-us__profile {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.follow-us__gallery {
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+
 .form-search {
   padding-left: 8px;
   padding-right: 8px;
@@ -490,6 +534,9 @@ body {
 }
 .subtitle--white {
   color: #fff;
+}
+.subtitle--18px {
+  font-size: 18px;
 }
 
 .button {
