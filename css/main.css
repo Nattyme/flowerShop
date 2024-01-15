@@ -752,6 +752,10 @@ body {
   background-repeat: no-repeat;
   color: #fff;
 }
+.tab-controls__btn--active:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 
 .card {
   display: flex;
