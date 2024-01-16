@@ -124,7 +124,7 @@ body {
 
 .header__panel {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .header__form {
@@ -305,12 +305,12 @@ body {
   text-align: center;
 }
 
-.clients__title {
-  margin-bottom: 16px;
+.clients__header {
+  margin-bottom: 60px;
 }
 
-.clients__subtitle {
-  margin-bottom: 60px;
+.clients__title {
+  margin-bottom: 16px;
 }
 
 .clients__slider {
@@ -427,6 +427,7 @@ body {
 }
 
 .follow__social {
+  margin-bottom: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -658,10 +659,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
-  transition: background-color 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 .button:hover {
-  background-color: #a22a48;
+  background-color: #e36996;
+  transform: scale(1.2);
 }
 
 .button-light {

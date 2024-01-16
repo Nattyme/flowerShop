@@ -12,10 +12,11 @@
     text-transform: uppercase;
     color: #fff;
 
-    transition: background-color 0.2s ease-in;
+    transition: all 0.2s ease-in;
 
     &:hover{
-        background-color: #a22a48;
+        background-color: #e36996;
+        transform: scale(1.2);
     }
 }
 
