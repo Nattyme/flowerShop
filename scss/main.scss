@@ -6,7 +6,7 @@
 @import "./base/reset";
 @import "./base/base.scss";
 
-// sections
+// Sections
 @import "./sections/header";
 @import "./sections/today-offer";
 @import "./sections/elite-gift";
@@ -17,6 +17,8 @@
 @import "./sections/subscribe";
 @import "./sections/follow";
 @import "./sections/footer";
+// inner pages
+@import "./sections/product";
 
 // blocks
 @import "./blocks/logo";

@@ -537,6 +537,16 @@ body {
   row-gap: 10px;
 }
 
+.product {
+  padding-top: 52px;
+  padding-bottom: 120px;
+}
+
+.product__row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .form-search {
   padding-left: 8px;
   padding-right: 8px;
