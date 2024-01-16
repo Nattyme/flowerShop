@@ -894,4 +894,23 @@ body {
 .slider-client__text p {
   font-size: 14px;
   font-weight: 300;
+}
+
+.slider-product__item {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.slider-product__img-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.slider-product__img-less {
+  width: 116px;
+  height: 116px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */

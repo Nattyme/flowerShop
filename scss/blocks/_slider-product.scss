@@ -1,0 +1,22 @@
+.slider-product {
+}
+
+.slider-product__item {
+    display: flex;
+    column-gap: 20px;
+}
+
+.slider-product__img-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.slider-product__img-less {
+    width: 116px;
+    height: 116px;
+    object-fit: cover;
+}
+
+.slider-product__img-main {
+}
