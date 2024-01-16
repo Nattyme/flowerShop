@@ -1,20 +1,15 @@
-.about-us {
-
-}
-
-.about-us__row {
+.about__row {
     padding-top: 185px;
     padding-bottom: 178px;
 }
 
-.about-us__content {
+.about__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1007px;
 
     position: relative;
-
     
     &::before {
         z-index: -2;
@@ -37,7 +32,7 @@
     }
 }
 
-.about-us__img {
+.about__img {
     position: relative;
 
     &::after {
@@ -54,17 +49,22 @@
     }
 }
 
-.about-us__desc {
+.about__desc {
     max-width: 448px;
 }
 
-.about-us__title {
+.about__header {
     margin-bottom: 26px;
 }
 
-.about-us__text {
+.about__title:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.about__text {
     font-size: 18px;
     font-weight: 300;
+
     p:not(:last-child) {
         margin-bottom: 30px;
     }

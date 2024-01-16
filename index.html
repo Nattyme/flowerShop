@@ -11,32 +11,38 @@
 
         <div class="header__top">
             <div class="container">
-                <div class="header__cta">
-                    <div class="header__logo">
-                        <div class="logo">
-                            <img src="./img/logo.jpg" alt="logo">
+                <div class="header__row">
+                    <a href="#!" class="logo">
+                        <img src="./img/logo.jpg" alt="logo">
+                    </a>
+
+                    <div class="header__panel">
+                        <div class="header__form">
+                            <form class="form-search">
+                                <input type="text" class="form-search__input" placeholder="Search...">
+                                <img src="./img/icons/search.svg" alt="search">
+                            </form>
                         </div>
+
+                        <a href="#subscribe" class="header__subscribe">
+                            <p>SUBSCRIBE & SAVE</p>
+                        </a>
+
+                        <ul class="header__list">
+                            <li class="header__item"><a href="#!">
+                                <img src="./img/icons/contact.svg" alt="contact">
+                            </a></li>
+                            <li class="header__item"><a href="#!">
+                                <img src="./img/icons/delivery.svg" alt="delivery">
+                            </a></li>
+                            <li class="header__item"> <a href="#!">
+                                <img src="./img/icons/user.svg" alt="account">
+                            </a></li>
+                            <li class="header__item"><a href="#!">
+                                <img src="./img/icons/cart.svg" alt="cart">
+                            </a></li>
+                        </ul>
                     </div>
-                    <div class="header__form">
-                        <form action="" class="form-search">
-                            <input type="text" class="form-search__input" placeholder="Search...">
-                            <img src="./img/icons/search.svg" alt="search">
-                        </form>
-                    </div>
-                    <ul class="header__list">
-                        <li class="header__item"><a href="#!">
-                            <img src="./img/icons/contact.svg" alt="contact">
-                        </a></li>
-                        <li class="header__item"><a href="#!">
-                            <img src="./img/icons/delivery.svg" alt="delivery">
-                        </a></li>
-                        <li class="header__item"> <a href="#!">
-                            <img src="./img/icons/user.svg" alt="account">
-                        </a></li>
-                        <li class="header__item"><a href="#!">
-                            <img src="./img/icons/cart.svg" alt="cart">
-                        </a></li>
-                    </ul>
 
                 </div>
             </div>
@@ -151,15 +157,16 @@
 
     <section class="best-sale">
         <div class="container">
-
-            <div class="best-sale__title">
-                <h2 class="title">OUR BEST SELLERS</h2>
+            <div class="best-sale__header">
+                <div class="best-sale__title">
+                    <h2 class="title">OUR BEST SELLERS</h2>
+                </div>
+                <div class="best-sale__subtitle">
+                    <h3 class="subtitle">Select a category or go to the section with a convinient filter by product</h3>
+                </div>
             </div>
 
-            <div class="best-sale__subtitle">
-                <h3 class="subtitle">Select a category or go to the section with a convinient filter by product</h3>
-            </div>
-
+            <!-- tabs -->
             <div class="best-sale__tubs">
                 <div class="tab-controls">
                     <button data-tab="all" class="tab-controls__btn tab-controls__btn--active">ALL PRODUCTs</button>
@@ -169,6 +176,7 @@
                     <button data-tab="cat-04" class="tab-controls__btn">Get well</button>
                 </div>
             </div>
+            <!--// tabs -->
 
             <!-- cards grid -->
             <div class="best-sale__cards">
@@ -264,7 +272,7 @@
                 </a>
                 <!--// card -->
                  <!-- card -->
-                 <div class="card">
+                 <a href="#!" class="card">
                     <div class="card__img">
                         <img src="./img/card/07.jpg" alt="product">
                     </div>
@@ -276,10 +284,10 @@
                         <button class="card__cart">Add to cart
                         </button>
                     </div>
-                </div>
+                </a>
                 <!--// card -->
                  <!-- card -->
-                 <div class="card">
+                 <a href="#!" class="card">
                     <div class="card__img">
                         <img src="./img/card/08.jpg" alt="product">
                     </div>
@@ -291,7 +299,7 @@
                         <button class="card__cart">Add to cart
                         </button>
                     </div>
-                </div>
+                </a>
                 <!--// card -->
         
             </div>
@@ -346,18 +354,20 @@
         </div>
     </section>
 
-    <section class="about-us">
+    <section class="about">
         <div class="container">
-            <div class="about-us__row">
-                <div class="about-us__content">
-                <div class="about-us__img">
+            <div class="about__row">
+                <div class="about__content">
+                <div class="about__img">
                     <img src="./img/about-us/01.jpg" alt="about">
                 </div>
-                <div class="about-us__desc">
-                    <div class="about-us__title">
-                        <h2 class="title">ABOUT US</h2>
+                <div class="about__desc">
+                    <div class="about__header">
+                        <div class="about__title">
+                            <h2 class="title">ABOUT US</h2>
+                        </div>
                     </div>
-                    <div class="about-us__text">
+                    <div class="about__text">
                         <p> We are not the only sellers of chocolate dipped strawberries and flowers in Sydney, but we are probably the only ones who combine the Finest Belgian Chocolate, Strawberries with Fresh Cut Flowers to bring happiness to you and your loved ones.</p>
                         <p>We will never be below your expectations and will 
                             do our best to stay a part of your memories.</p>
@@ -368,18 +378,19 @@
         </div>
     </section>
 
-    <section class="subscribe">
+    <section class="subscribe" id="subscribe">
         <div class="container">
             <div class="subscribe__content">
                 <div class="subscribe__header">
-                <div class="subscribe__title">
+                    <div class="subscribe__title">
                     <h2 class="title title--white">GET DISCOUNT INFO</h2>
-                </div>
-                <div class="subscribe__subtitle">
-                    <h3 class="subtitle subtitle--white subtitle--18px">Subscribe discount newsletter for get notification 
+                    </div>
+                    <div class="subscribe__subtitle">
+                        <h3 class="subtitle subtitle--white subtitle--18px">Subscribe discount newsletter for get notification 
                         about new information discount, etc.</h3>
-                </div>
+                    </div>
                </div>
+
                 <div class="subscribe__form">
                     <form action="" class="form-subscribe">
                         <div class="form-subscribe__input">
@@ -393,39 +404,37 @@
         </div>
     </section>
 
-    <section class="follow-us">
+    <section class="follow">
         <div class="container">
-            <div class="follow-us__row">
-                <div class="follow-us__content">
-                <div class="follow-us__text">
-                    <div class="follow-us__header">
-                        <div class="follow-us__header">
-                            <div class="follow-us__title">
+            <div class="follow__row">
+                <div class="follow__header">
+                    <div class="follow__title">
                                 <h2 class="title">Follow us on Instagram</h2>
-                            </div>
-                            <div class="follow-us__subtitle">
+                    </div>
+                    <div class="follow__subtitle">
                                 <h3 class="subtitle">To be the first to know about special deals, 
                                     new and spare products, discount codes and more</h3>
-                            </div>
-                        </div>
-                        <a href="#!" class="follow-us__social">
-                            <span class="follow-us__profile">@strawbarbie_syd</span>
-                            <img class="follow-us__instagram" src="./img/follow-us/instagram.svg" alt="instagram">
-                        </a>
                     </div>
                 </div>
-                <div class="follow-us__gallery">
-                    <div class="follow-us__img">
+
+                <a href="#!" class="follow__social">
+                    <span class="follow-us__profile">@strawbarbie_syd</span>
+                    <img class="follow-us__instagram" src="./img/follow-us/instagram.svg" alt="instagram">
+                </a>
+                       
+                </div>
+                <div class="follow__gallery">
+                    <div class="follow__img">
                         <img src="./img/follow-us/big-img.jpg" alt="product">
                     </div>
-                    <div class="follow-us__grid">
+                    <div class="follow__grid">
                         <img src="./img/follow-us/img-01.jpg" alt="product">
                         <img src="./img/follow-us/img-02.jpg" alt="product">
                         <img src="./img/follow-us/img-03.jpg" alt="product">
                         <img src="./img/follow-us/img-04.jpg" alt="product">
                     </div>
                 </div>
-            </div>
+            
             </div>
         </div>
     </section>
