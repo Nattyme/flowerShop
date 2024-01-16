@@ -5,16 +5,21 @@
 
 .product__row {
     display: flex;
-    justify-content: space-between;
+    
 }
 
 .product__content {
+    flex-shrink: 0;
 }
 
 .product__slider {
+    margin-right: 77px;
 }
 
 .product__desc {
 }
+
 .product__panel {
+    display: flex;
+    flex-direction: column;
 }

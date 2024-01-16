@@ -6,6 +6,10 @@
     column-gap: 20px;
 }
 
+.slider-product__item > * {
+    flex-shrink: 0;
+}
+
 .slider-product__img-wrapper {
     display: flex;
     flex-direction: column;
@@ -19,4 +23,10 @@
 }
 
 .slider-product__img-main {
+    width: 452px;
+    object-fit: cover;
+    overflow: hidden;
+    img {
+        max-width: unset;
+    }
 }
