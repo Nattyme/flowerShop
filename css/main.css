@@ -559,6 +559,18 @@ body {
   flex-direction: column;
 }
 
+.product__header {
+  margin-bottom: 12px;
+}
+
+.product__price {
+  margin-bottom: 19px;
+}
+
+.product__text {
+  margin-bottom: 19px;
+}
+
 .form-search {
   padding-left: 8px;
   padding-right: 8px;
