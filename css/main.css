@@ -574,11 +574,19 @@ body {
 }
 
 .product__info {
+  max-width: 444px;
   font-size: 16px;
   line-height: 1.68; /* 168.75% */
   color: #707070;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.product__info p {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .product__info a {
+  display: inline;
   font-size: 13px;
   text-decoration-line: underline;
   text-transform: uppercase;
