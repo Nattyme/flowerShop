@@ -554,11 +554,6 @@ body {
   margin-right: 77px;
 }
 
-.product__panel {
-  display: flex;
-  flex-direction: column;
-}
-
 .product__header {
   margin-bottom: 12px;
 }
@@ -569,6 +564,49 @@ body {
 
 .product__text {
   margin-bottom: 19px;
+}
+
+.product__price {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.44; /* 144.444% */
+  color: #828282;
+}
+
+.product__info {
+  font-size: 16px;
+  line-height: 1.68; /* 168.75% */
+  color: #707070;
+}
+.product__info a {
+  font-size: 13px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #000;
+  transition: color 0.2s ease-in;
+}
+.product__info a:hover {
+  color: #80233a;
+}
+
+.product__widgets {
+  display: flex;
+  flex-direction: column;
+  row-gap: 42px;
+}
+
+.product__widget:last-child {
+  margin-top: 42px;
+}
+
+.product__widget-title {
+  margin-bottom: 22px;
+}
+
+.product__widget-tabs {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
 
 .form-search {
@@ -620,6 +658,10 @@ body {
   font-size: 14px;
   font-weight: 300;
   color: #828282;
+}
+
+.form-avalable {
+  display: flex;
 }
 
 .nav {
@@ -674,6 +716,15 @@ body {
   text-transform: uppercase;
 }
 
+.title-widget {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+.title-widget--16px {
+  font-size: 16px;
+}
+
 .subtitle {
   font-size: 16px;
   font-weight: 500;
@@ -723,6 +774,22 @@ body {
 .button-light:hover {
   background-color: #80233a;
   color: #fff;
+}
+
+.button-tab {
+  width: 69px;
+  height: 36px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  color: #707070;
+  transition: all 0.2s ease-in;
+}
+.button-tab:hover {
+  font-weight: 600;
+  border: 1px solid #80233a;
+  color: #80233a;
 }
 
 .slider {

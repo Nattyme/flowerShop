@@ -41,3 +41,22 @@
         color: #fff;
     }
 }
+
+.button-tab {
+    width: 69px;
+    height: 36px;
+    border: 1px solid #ccc;
+    
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        font-weight: 600;
+        border: 1px solid #80233a;
+        color: #80233a;
+    }
+}
