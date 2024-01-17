@@ -574,7 +574,7 @@ body {
 }
 
 .product__info {
-  max-width: 444px;
+  height: 54px;
   font-size: 16px;
   line-height: 1.68; /* 168.75% */
   color: #707070;
@@ -582,6 +582,7 @@ body {
   white-space: nowrap;
 }
 .product__info p {
+  max-width: 444px;
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -729,8 +730,9 @@ body {
   font-weight: 600;
   color: #000;
 }
-.title-widget--16px {
+.title-widget--big {
   font-size: 16px;
+  text-transform: uppercase;
 }
 
 .subtitle {
@@ -798,6 +800,33 @@ body {
   font-weight: 600;
   border: 1px solid #80233a;
   color: #80233a;
+}
+
+.button-form-avalable {
+  width: 327px;
+  height: 45px;
+  background-color: #80233a;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  transition: opacity 0.2s ease-in;
+}
+.button-form-avalable:hover {
+  opacity: 0.8;
+}
+
+.button-control {
+  width: 103px;
+  height: 45px;
+}
+
+.button-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 15px;
 }
 
 .slider {
@@ -1000,6 +1029,56 @@ body {
 .slider-client__text p {
   font-size: 14px;
   font-weight: 300;
+}
+
+.nav-mobile {
+  width: 20px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-mobile__middle {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background-color: #80233a;
+}
+.nav-mobile__middle::before, .nav-mobile__middle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background-color: #80233a;
+  transition: transform 0.2s linear, top 0.2s ease-in 0.2s;
+}
+.nav-mobile__middle::before {
+  top: -4px;
+}
+.nav-mobile__middle::after {
+  top: 4px;
+}
+
+.nav-mobile.nav-mobile--active .nav-mobile__middle {
+  background-color: transparent;
+}
+.nav-mobile.nav-mobile--active .nav-mobile__middle::before, .nav-mobile.nav-mobile--active .nav-mobile__middle::after {
+  top: 0;
+  transition: top 0.2s ease-in, transform 0.2s linear 0.2s;
+}
+.nav-mobile.nav-mobile--active .nav-mobile__middle::before {
+  transform: rotate(45deg);
+}
+.nav-mobile.nav-mobile--active .nav-mobile__middle::after {
+  transform: rotate(-45deg);
+}
+
+.slider-product {
+  position: relative;
+  padding-bottom: 40px;
 }
 
 .slider-product__item {

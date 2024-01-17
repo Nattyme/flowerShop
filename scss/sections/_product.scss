@@ -42,7 +42,7 @@
 }
 
 .product__info {
-    max-width: 444px;
+    height: 54px;
     font-size: 16px;
     line-height: 1.68; /* 168.75% */
     color: #707070;
@@ -50,6 +50,7 @@
     white-space: nowrap;
 
     p {
+        max-width: 444px;
         text-overflow: ellipsis;
         overflow: hidden;
     }

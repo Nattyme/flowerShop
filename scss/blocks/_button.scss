@@ -20,6 +20,10 @@
     }
 }
 
+.button-nav {
+    // display: none;
+}
+
 .button-light {
     display: inline-block;
     width: 183px;
@@ -60,3 +64,36 @@
         color: #80233a;
     }
 }
+
+.button-form-avalable {
+    width: 327px;
+    height: 45px;
+    background-color: #80233a;
+
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+
+    transition: opacity 0.2s ease-in;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.button-control {
+    width: 103px;
+    height: 45px;
+    
+}
+
+.button-nav {
+    // display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 15px;
+}
+
