@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header none">
 
         <div class="header__top">
             <div class="container">
@@ -78,17 +78,20 @@
     
     <main class="inner-page">
         <section class="section-cart">
+            <div class="container">
             <header class="section-cart__header">
-                <div class="container">
-                    <h1 class="title">
-                        YOUR CART
-                    </h1>
-                </div>
+                    <div class="section-cart__title">
+                        <h2 class="title">YOUR CART</h2>
+                    </div>
+                    <a class="section-cart__subtitle">
+                        <h3 class="subtitle ">RETURN TO SHOP</h3>
+                    </a>
             </header>
             <div class="section-cart__body">
                 <div class="container">
                     <section class="cart">
-                        <!-- cart-product -->
+                        <div class="cart__main">
+                            <!-- cart-product -->
                         <section class="cart-product">
                             <div class="cart-product__img">
                                <img src="./img/cart/img-01.jpg" alt="Sweet Perfection">
@@ -115,7 +118,9 @@
                                 $ 153,00
                             </div>
                             <div class="cart-product__controls">
-                                <button type="button"></button>
+                                <button type="button">
+                                    <button type="button"><img src="./img/cart/x.svg" alt="delete"></button>
+                                </button>
                             </div>
                         </section>
                         <!--// cart-product -->
@@ -147,7 +152,7 @@
                                 $ 225,00
                             </div>
                             <div class="cart-product__controls">
-                                <button type="button"><img src="./img/icons/x.svg" alt="delete"></button>
+                                <button type="button"><img src="./img/cart/x.svg" alt="delete"></button>
                             </div>
                         </section>
                         <!--// cart-product -->
@@ -179,10 +184,11 @@
                                 $ 186,00
                             </div>
                             <div class="cart-product__controls">
-                                <button type="button"><img src="./img/icons/x.svg" alt="delete"></button>
+                                <button type="button"><img src="./img/cart/x.svg" alt="delete"></button>
                             </div>
                         </section>
                         <!--// cart-product -->
+                        </div>
                         
                         <footer class="cart-footer">
                             <div class="cart-footer__count">3 единицы</div>
@@ -191,10 +197,12 @@
                     </section>
                 </div>
             </div>
+
+            </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer none">
         <div class="container">
             <div class="footer__row">
                 <div class="footer__widget">

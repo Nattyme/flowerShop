@@ -618,6 +618,39 @@ body {
        column-gap: 10px;
 }
 
+.section-cart {
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.section-cart__header {
+  margin-bottom: 62px;
+  text-align: center;
+}
+
+.section-cart__title {
+  margin-bottom: 9px;
+}
+
+.cart {
+  display: flex;
+  -moz-column-gap: 81px;
+       column-gap: 81px;
+}
+
+.cart__main {
+  width: 580px;
+}
+
+.cart-product {
+  padding-top: 39px;
+  padding-bottom: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d8d8d8;
+}
+
 .form-search {
   padding-left: 8px;
   padding-right: 8px;
