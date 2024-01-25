@@ -651,6 +651,11 @@ body {
   border-bottom: 1px solid #d8d8d8;
 }
 
+.count__controls {
+  max-width: 102px;
+  display: flex;
+}
+
 .form-search {
   padding-left: 8px;
   padding-right: 8px;
