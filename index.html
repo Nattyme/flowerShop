@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flower shop</title>
     <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.carousel.min.css">
+
 </head>
 <body>
     <header class="header">
@@ -95,31 +99,42 @@
     <section class="elite-gift">
         <div class="elite-gift__slider">
             
-                <div class="slider">
+                <div class="slider owl-carousel owl-theme" id="slider-gifts">
                     <!-- slider item -->
                     <div class="slider__item">
-                        <div class="slider__title">
-                            <h1>elite gifts</h1>
-                            <p>for any taste</p>
-                            <div class="slider__img">
-                                <img src="./img/slider/slider-gifts/01.jpg" alt="gift">
-                            </div>
-                        </div>
-                        
-                        <div class="slider__button">
-                            <a href="#!" class="button">SHOP</a>
-                        </div>
-        
+                        <img src="./img/slider/slider-gifts/01.jpg" alt="gift">
                     </div>
-                
-                <div class="slider__pagination">
+                    <!--// slider item -->
+
+                    <!-- slider item -->
+                    <div class="slider__item">
+                        <img src="./img/slider/slider-gifts/02.jpg" alt="gift">
+                    </div>
+                    <!--// slider item -->
+
+                    <!-- slider item -->
+                    <div class="slider__item">
+                        <img src="./img/slider/slider-gifts/03.jpg" alt="gift">
+                    </div>
+                    <!--// slider item -->
+
+                </div>
+
+                <!-- <div class="slider__title">
+                    <h1>elite gifts</h1>
+                    <p>for any taste</p>
+                </div> -->
+
+                <!-- <div class="slider__button">
+                    <a href="#!" class="button">SHOP</a>
+                </div> -->
+
+                <!-- <div class="slider__pagination">
                     <button class="slider__pagination-item"></button>
                     <button class="slider__pagination-item slider__pagination-item--active"></button>
                     <button class="slider__pagination-item"></button>
                     <button class="slider__pagination-item"></button>
-                </div>
-
-                </div>
+                </div> -->
 
         </div>
     </section>
@@ -514,6 +529,12 @@
             </div>
         </div>
     </footer>
+
+    <!-- libs -->
+    <script src="./libs/jquery/jquery-3.7.1.min.js"></script>
+    <script src="./libs/owlCarousel2/owl.carousel.min.js"></script>
+
+    <!-- custom js -->
     <script src="./js/main.js"></script>
 </body>
 </html>
